@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Patua+One|Rubik|Sniglet&display=swap');
-
+html{
+    scroll-behavior: smooth;
+}
 *
 {
     box-sizing: border-box;
