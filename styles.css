@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Patua+One|Rubik|Sniglet&display=swap');
+
+*
+{
+    box-sizing: border-box;
+
+}
+header, section
+{
+    overflow-x: hidden;
+}
+:root
+{
+    --snigle-font:"Sniglet",cursive;
+    --Rubik:"Rubik",cursive;
+    --Patua: "Patua One",cursive;
+    --Lobster:"Lobster",cursive;   
+}
+
+header a{
+    font-family: var(--snigle-font);
+   
+}
+.section-0
+{
+    box-shadow: 5px 5px 10px silver;
+    border: 1px solid white;
+}
+.section-0 .navbar-brand 
+{
+    color: #E72744 !important;
+    
+    font-size: 2em;
+}
+.section-0 .nav-link{
+    font-size: 1em;
+    color: #E72744 !important;
+    transition: ease-out 500ms;
+}
+.section-0 .nav-link:hover
+{
+    
+    color: white !important;
+    background-color: #E72744;
+    border-radius: .5em;
+    margin:.1em .1em;
+    padding:.5em
+
+}
+
+
+/*section-2*/
+
+
+.section-2
+{
+    margin-top: 6em;
+    margin-bottom: 2em;
+    background-color: rgb(161, 161, 159);
+}
+.section-2 a{
+    text-decoration: none;
+}
+
+.section-2 .container-fluid h2
+{
+    font-size: 3vmin;
+    font-family: var(--Patua);
+    color: #DD5555;
+}
+.section-2 .row .Best-offer
+{
+   padding: 1em;
+    box-shadow: 5px 5px 5px 2px grey;
+}
+
+hr.new1{
+    border: .5px solid #DD5555;
+}
+.section-2 .menu-right-btn
+{
+    
+    
+    padding:6px;
+    width:8em ;
+    border-radius: 8em;
+    color: whitesmoke;
+    background: #E72744;
+    transition: all ease-in-out 200ms;
+
+}
+
+.section-2 .menu-right-btn:hover
+{
+    width: 10em;
+}
+
+
+.section-2 .button-1 .add-cart
+{
+color: white;
+margin: 10px;
+background: #E72744;
+}
+.section-2 .button-1 .wishlist
+{
+    color: black;
+    background: blanchedalmond;
+}
+.section-2 .button-1
+{
+    display: none;
+    justify-content: center;
+    font-family: var(--snigle-font);
+}
+
+
+.section-2 .P-brand
+{
+    font-family: var(--Patua);
+    color: #E72744;
+}
+.section-2 .P-name
+{
+    font-family: var(--Patua);
+    color: rgb(0,0,0,0.5);
+}
+.section-2 .P-price
+{
+    font-family: var(--snigle-font);
+    color: silver;
+}
+
+.fa-star
+{
+    color: rgba(110, 101, 101, 10);
+}
+
+.inner
+{
+    overflow: hidden;
+
+}
+.inner img{
+    width: 250px;
+    transition: all 2s ease;
+}
+.inner:hover img{
+
+    transform: scale(1.5);
+}
+
+
+.section-2 .Best-offer .card:hover
+{
+    box-shadow: 5px 5px 10px silver;
+}
+
+.section-2 .Best-offer .card .card-body:hover .hideme
+{
+    display: none;
+}
+.section-2 .Best-offer .card .card-body:hover .button-1
+{
+    display: inline;
+}
+
+.section-2 .row .side-bar
+{
+    
+    padding: 1em;
+    box-shadow: 5px 5px 5px 2px grey;
+}
+
+.section-2 .side-photo img{
+    height: 31em;
+    width:20em;
+    padding: 1em;
+}
+.section-2 .offers
+{
+    font-family: var(--Patua);
+    color: #E72744;
+}
+
+.section-3
+{padding: 20vmin;
+
+}
+.section-3 .row .col-md-6 .fashion-1 img{
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.2em;
+}
+
+.section-3 .row .col-md-6:last-child
+{
+    position: relative;  
+}
+.section-3 .row .col-md-6 .panel
+{
+   position: absolute;
+   top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding:13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgb(0,0,0,0.2);
+    font-family: var(--Rubik);
+}
+
+
